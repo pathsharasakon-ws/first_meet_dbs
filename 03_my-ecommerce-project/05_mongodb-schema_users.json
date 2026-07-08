@@ -1,0 +1,40 @@
+{
+  "_id": "64b2f1a8e4b0f5a2c1a3b4d1",
+  "name": "John Doe",
+  "email": "john.doe@example.com",
+  "role": "parent",
+  "subscription": {
+    "status": "active",
+    "plan": "Monthly Practice Hack Box",
+    "start_date": "2026-06-01T00:00:00Z",
+    "next_billing_date": "2026-07-01T00:00:00Z"
+  },
+  "students": [
+    {
+      "student_id": "s99123",
+      "name": "Timmy Doe",
+      "age": 8,
+      "gamification": {
+        "current_xp": 2450,
+        "level": 5,
+        "piano_coins_balance": 150,
+        "current_streak": 7
+      },
+      "teacher_id": "64b2f1e2e4b0f5a2c1a3b4e9"
+    },
+    {
+      "student_id": "s99124",
+      "name": "Emma Doe",
+      "age": 11,
+      "gamification": {
+        "current_xp": 4800,
+        "level": 9,
+        "piano_coins_balance": 420,
+        "current_streak": 14
+      },
+      "teacher_id": "64b2f1e2e4b0f5a2c1a3b4e9"
+    }
+  ],
+  "created_at": "2026-01-15T08:30:00Z",
+  "updated_at": "2026-07-08T17:00:00Z"
+}
