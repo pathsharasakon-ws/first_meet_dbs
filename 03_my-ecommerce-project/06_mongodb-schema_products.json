@@ -1,0 +1,31 @@
+{
+  "_id": "64b2f25fe4b0f5a2c1a3b6b8",
+  "order_number": "ORD-20260708-001",
+  "order_date": "2026-07-08T17:05:00Z",
+  "buyer": {
+    "parent_id": "64b2f1a8e4b0f5a2c1a3b4d1",
+    "student_id": "s99123",
+    "shipped_to_name": "John Doe (For Timmy)"
+  },
+  "payment": {
+    "method": "piano_coins",
+    "currency_used": "COINS",
+    "amount_paid": 5000
+  },
+  "items": [
+    {
+      "product_id": "64b2f20ae4b0f5a2c1a3b5a1",
+      "name": "Smart Piano LED Visualizer Bar",
+      "quantity": 1,
+      "price_at_purchase": 5000
+    }
+  ],
+  "fulfillment_status": "processing",
+  "shipping_address": {
+    "street": "123 Nimmanahaeminda Road",
+    "sub_district": "Suthep",
+    "district": "Mueang Chiang Mai",
+    "province": "Chiang Mai",
+    "postal_code": "50200"
+  }
+}
