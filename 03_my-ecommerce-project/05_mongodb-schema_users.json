@@ -1,40 +1,112 @@
-{
-  "_id": "64b2f1a8e4b0f5a2c1a3b4d1",
-  "name": "John Doe",
-  "email": "john.doe@example.com",
-  "role": "parent",
-  "subscription": {
-    "status": "active",
-    "plan": "Monthly Practice Hack Box",
-    "start_date": "2026-06-01T00:00:00Z",
-    "next_billing_date": "2026-07-01T00:00:00Z"
-  },
-  "students": [
-    {
-      "student_id": "s99123",
-      "name": "Timmy Doe",
-      "age": 8,
-      "gamification": {
-        "current_xp": 2450,
-        "level": 5,
-        "piano_coins_balance": 150,
-        "current_streak": 7
-      },
-      "teacher_id": "64b2f1e2e4b0f5a2c1a3b4e9"
+[
+  {
+    "_id": "001",
+    "username": "kru_ne_piano",
+    "email": "ne_piano@email.com",
+    "password_hash": "ne1234",
+    "created_at": "2026-07-09T07:12:00Z",
+    "profile": {
+      "total_points": 2450,
+      "current_streak": 12,
+      "avatar_assets": {
+        "hat": "golden_crown",
+        "outfit": "tuxedo",
+        "background": "concert_hall"
+      }
     },
-    {
-      "student_id": "s99124",
-      "name": "Emma Doe",
-      "age": 11,
-      "gamification": {
-        "current_xp": 4800,
-        "level": 9,
-        "piano_coins_balance": 420,
-        "current_streak": 14
-      },
-      "teacher_id": "64b2f1e2e4b0f5a2c1a3b4e9"
+    "subscription_quota": {
+      "plan_type": "Premium",
+      "trial_ends_at": "2026-07-16T07:12:00Z",
+      "remaining_quota": 3,
+      "last_reset_at": "2026-07-09T12:00:00Z"
     }
-  ],
-  "created_at": "2026-01-15T08:30:00Z",
-  "updated_at": "2026-07-08T17:00:00Z"
-}
+  },
+  {
+    "_id": "002",
+    "username": "alex_mozart",
+    "email": "alex@email.com",
+    "password_hash": "ax8899",
+    "created_at": "2026-07-09T08:30:00Z",
+    "profile": {
+      "total_points": 850,
+      "current_streak": 4,
+      "avatar_assets": {
+        "hat": "default_none",
+        "outfit": "starter_clothes",
+        "background": "classic_room"
+      }
+    },
+    "subscription_quota": {
+      "plan_type": "Free",
+      "trial_ends_at": "2026-07-16T08:30:00Z",
+      "remaining_quota": 1,
+      "last_reset_at": "2026-07-09T12:00:00Z"
+    }
+  },
+  {
+    "_id": "003",
+    "username": "chopin_fan",
+    "email": "chopin@email.com",
+    "password_hash": "cp7766",
+    "created_at": "2026-07-09T09:15:00Z",
+    "profile": {
+      "total_points": 0,
+      "current_streak": 0,
+      "avatar_assets": {
+        "hat": "default_none",
+        "outfit": "starter_clothes",
+        "background": "classic_room"
+      }
+    },
+    "subscription_quota": {
+      "plan_type": "Premium",
+      "trial_ends_at": "2026-07-16T09:15:00Z",
+      "remaining_quota": 3,
+      "last_reset_at": "2026-07-09T12:00:00Z"
+    }
+  },
+  {
+    "_id": "004",
+    "username": "melody_pear",
+    "email": "pear@email.com",
+    "password_hash": "pr5544",
+    "created_at": "2026-07-09T10:05:00Z",
+    "profile": {
+      "total_points": 3100,
+      "current_streak": 21,
+      "avatar_assets": {
+        "hat": "wizard_hat",
+        "outfit": "magic_robe",
+        "background": "fantasy_forest"
+      }
+    },
+    "subscription_quota": {
+      "plan_type": "Premium",
+      "trial_ends_at": "2026-07-16T10:05:00Z",
+      "remaining_quota": 3,
+      "last_reset_at": "2026-07-09T12:00:00Z"
+    }
+  },
+  {
+    "_id": "005",
+    "username": "jazz_boy",
+    "email": "jazz@email.com",
+    "password_hash": "jz9900",
+    "created_at": "2026-07-09T11:40:00Z",
+    "profile": {
+      "total_points": 120,
+      "current_streak": 1,
+      "avatar_assets": {
+        "hat": "cool_cap",
+        "outfit": "starter_clothes",
+        "background": "classic_room"
+      }
+    },
+    "subscription_quota": {
+      "plan_type": "Free",
+      "trial_ends_at": "2026-07-16T11:40:00Z",
+      "remaining_quota": 0,
+      "last_reset_at": "2026-07-09T12:00:00Z"
+    }
+  }
+]
