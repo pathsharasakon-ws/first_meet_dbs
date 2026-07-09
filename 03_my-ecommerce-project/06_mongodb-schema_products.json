@@ -1,59 +1,47 @@
 [
   {
-    "_id": "64b2f20ae4b0f5a2c1a3b5a1",
-    "sku": "KQ-HW-LED01",
-    "name": "Smart Piano LED Visualizer Bar",
-    "description": "An interactive LED bar that lights up over the piano keys to guide student practice, visuals synchronize with practice tracks.",
-    "category": "Practice Tools",
-    "images": [
-      "https://cdn.keysandquests.com/products/led-bar-front.jpg",
-      "https://cdn.keysandquests.com/products/led-bar-demo.jpg"
-    ],
-    "pricing": {
-      "price_cash": 1290.00,
-      "price_coins": 5000
-    },
-    "shipping_dimensions": {
-      "weight_g": 450,
-      "length_cm": 120.0,
-      "width_cm": 5.0,
-      "height_cm": 3.0
-    },
-    "inventory": {
-      "stock_quantity": 45,
-      "low_stock_alert": 10,
-      "warehouse_location": "Aisle-B-Shelf-3"
-    },
-    "tags": ["led", "hardware", "visualizer", "premium"],
-    "created_at": "2026-02-10T09:00:00Z",
-    "updated_at": "2026-07-08T17:10:00Z"
+    "_id": "PROD_001",
+    "product_name": "Golden Crown",
+    "category": "Avatar_Hat",
+    "description": "A shiny golden crown for elite piano players.",
+    "price": 299,
+    "stock_status": "Unlimited",
+    "is_active": true
   },
   {
-    "_id": "64b2f20ae4b0f5a2c1a3b5a2",
-    "sku": "KQ-SUB-BOX01",
-    "name": "Keys & Quests Monthly Practice Hack Box",
-    "description": "A monthly subscription box containing exclusive physical flashcards, progress sticker charts, and unlock codes for special in-app quests.",
-    "category": "Subscription Boxes",
-    "images": [
-      "https://cdn.keysandquests.com/products/box-july-preview.jpg"
-    ],
-    "pricing": {
-      "price_cash": 590.00,
-      "price_coins": 2500
-    },
-    "shipping_dimensions": {
-      "weight_g": 300,
-      "length_cm": 25.0,
-      "width_cm": 18.0,
-      "height_cm": 7.0
-    },
-    "inventory": {
-      "stock_quantity": 120,
-      "low_stock_alert": 20,
-      "warehouse_location": "Aisle-A-Shelf-1"
-    },
-    "tags": ["subscription", "box", "flashcards", "monthly"],
-    "created_at": "2026-05-01T10:00:00Z",
-    "updated_at": "2026-07-08T17:12:00Z"
+    "_id": "PROD_002",
+    "product_name": "Wizard Hat & Magic Robe Set",
+    "category": "Avatar_Bundle",
+    "description": "Transform your avatar into a classical music wizard.",
+    "price": 499,
+    "stock_status": "Unlimited",
+    "is_active": true
+  },
+  {
+    "_id": "PROD_003",
+    "product_name": "Neon Piano Stage Background",
+    "category": "Avatar_Background",
+    "description": "Change your profile background into a futuristic neon concert hall.",
+    "price": 150,
+    "stock_status": "Unlimited",
+    "is_active": true
+  },
+  {
+    "_id": "PROD_004",
+    "product_name": "1-Month Premium Pass",
+    "category": "Subscription",
+    "description": "Unlock unlimited AI practice scoring and remove all metronome restrictions for 30 days.",
+    "price": 290,
+    "stock_status": "Unlimited",
+    "is_active": true
+  },
+  {
+    "_id": "PROD_005",
+    "product_name": "1-Year Premium Pass (Value Pack)",
+    "category": "Subscription",
+    "description": "Full access to all premium features for 365 days with a special discount.",
+    "price": 2500,
+    "stock_status": "Unlimited",
+    "is_active": true
   }
 ]
